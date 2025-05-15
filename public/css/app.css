@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+section .cadre {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+section .cadre .inside {
+  width: 200px;
+  height: 480px;
+  background: #bbb;
+  border: 10px solid #000;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+section .cadre .inside .red {
+  width: 120px;
+  height: 120px;
+  background: #e61919;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+section .cadre .inside .red2 {
+  opacity: 1;
+}
+section .cadre .inside .oronge {
+  width: 120px;
+  height: 120px;
+  background: #ffd000;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+section .cadre .inside .oronge2 {
+  opacity: 1;
+}
+section .cadre .inside .green {
+  width: 120px;
+  height: 120px;
+  background: #18c22f;
+  border-radius: 50%;
+  opacity: 0.2;
+}
+section .cadre .inside .green2 {
+  opacity: 1;
+}
+section .cadre .poto {
+  width: 70px;
+  height: 400px;
+  background: #000;
+}
+
+/*# sourceMappingURL=app.css.map */
