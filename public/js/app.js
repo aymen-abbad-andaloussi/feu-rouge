@@ -2,12 +2,14 @@ let red = document.querySelector('.red')
 let oronge = document.querySelector('.oronge')
 let green = document.querySelector('.green')
 
-red.classList.remove('red2')
-oronge.classList.remove('oronge2')
-green.classList.remove('green2')
-
+function off() {
+    red.classList.remove('red2')
+    oronge.classList.remove('oronge2')
+    green.classList.remove('green2')
+}
 let time = 0
 setInterval(() => {
+    off()
     if (time == 0) {
         green.classList.add('green2')
     }else if (time == 1) {
