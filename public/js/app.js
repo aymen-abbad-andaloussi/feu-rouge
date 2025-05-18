@@ -145,7 +145,7 @@ setInterval(() => {
 let tim = document.getElementById('tim')
 
 let hour = 0
-let minut = 8
+let minut = 0
 let sec = 1
 
 
@@ -158,6 +158,7 @@ let interv = setInterval(() =>{
         minut = 0
         hour++
     }
+
     
     tim.textContent = hour + 'h : ' + minut + 'm : ' + sec + 's'
   sec++
